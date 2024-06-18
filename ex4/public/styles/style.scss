@@ -14,6 +14,9 @@
   .col-lg-8 li {
     padding: 0 16px;
   }
+  .menu-mobile {
+    display: none;
+  }
 }
 
 .content {
@@ -84,4 +87,16 @@
 .copyright {
   background-color: $white;
   color: #000;
+}
+
+@media (max-width: 575px) {
+  .header {
+    .d-moile-none {
+      display: none;
+    }
+    .menu-mobile {
+      display: block;
+      z-index: 1;
+    }
+  }
 }

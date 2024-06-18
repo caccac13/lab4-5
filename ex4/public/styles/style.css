@@ -11,6 +11,9 @@
 .header .col-lg-8 li {
   padding: 0 16px;
 }
+.header .menu-mobile {
+  display: none;
+}
 
 .content .outstanding .title {
   font-weight: bold;
@@ -72,4 +75,14 @@
 .copyright {
   background-color: #fff;
   color: #000;
+}
+
+@media (max-width: 575px) {
+  .header .d-moile-none {
+    display: none;
+  }
+  .header .menu-mobile {
+    display: block;
+    z-index: 1;
+  }
 }/*# sourceMappingURL=style.css.map */
