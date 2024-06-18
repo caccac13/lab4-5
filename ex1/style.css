@@ -1,0 +1,170 @@
+html {
+  letter-spacing: 1px;
+}
+.header {
+  height: 64px;
+  background-color: #11357c;
+  line-height: 64px;
+}
+
+.header img {
+  height: 24px;
+}
+
+.header .nav p {
+  color: #fff;
+  padding: 0 12px;
+  opacity: 0.6;
+}
+
+.header .nav p:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.header .nav li:first-child p {
+  opacity: 1;
+}
+
+.content {
+  margin-top: 40px;
+}
+
+.content img {
+  width: 100%;
+}
+
+.content .introduce .text .des {
+  font-size: 18px;
+}
+
+.content .introduce .text button {
+  background-color: #11357c;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  padding: 8px;
+  margin-top: 10px;
+}
+
+.content .introduce .text button:hover {
+  background-color: #2a55aa;
+}
+
+.content .wall .col {
+  background-color: #11357c;
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  color: #fff;
+  border-radius: 3px;
+  margin: 40px 12px;
+}
+
+.content .courses .title {
+  text-align: center;
+  font-size: 32px;
+  padding-bottom: 20px;
+}
+
+.content .courses .course {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.content .courses .course:hover {
+  border: 1px solid #2a55aa;
+}
+
+.container .course img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.container .body {
+  min-height: 120px;
+  margin: 16px;
+}
+
+.container .body .name {
+  color: #11357c;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.container .body .des {
+  letter-spacing: 1px;
+}
+
+.footer {
+  margin-top: 40px;
+  background-color: #11357c;
+  height: 140px;
+  color: #fff;
+  text-align: center;
+  line-height: 140px;
+  font-size: 12px;
+}
+
+@media (min-width: 1200px) {
+  .w-1200-center {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .content .introduce .text {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    position: relative;
+  }
+
+  .header .nav {
+    display: none;
+  }
+
+  .header .bar {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    color: #fff;
+    padding: 12px;
+    margin: -12px;
+  }
+
+  .header .bar:hover ul {
+    display: block;
+  }
+
+  .header .bar ul {
+    display: none;
+    position: absolute;
+    top: 64px;
+    right: 0;
+    background-color: #11357c;
+    min-width: 150px;
+    z-index: 1;
+    list-style: none;
+  }
+
+  .header .bar ul p {
+    padding: 0px;
+    margin-right: 12px;
+    height: 40px;
+    text-align: right;
+  }
+
+  .header .bar ul p:hover {
+    color: yellow;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,75 @@
+.header {
+  height: 90px;
+  line-height: 90px;
+  margin-bottom: 40px;
+}
+
+.header .nav {
+  justify-content: center;
+  text-transform: uppercase;
+}
+.header .col-lg-8 li {
+  padding: 0 16px;
+}
+
+.content .outstanding .title {
+  font-weight: bold;
+  font-size: 32px;
+  text-transform: uppercase;
+  padding-top: 60px;
+}
+.content .outstanding .item {
+  border: none;
+}
+.content .outstanding .item:hover {
+  border: 1px solid rgb(199, 199, 236);
+  cursor: pointer;
+}
+.content .outstanding .item .card-title {
+  font-size: 12px;
+  font-weight: bold;
+  opacity: 0.6;
+}
+.content .outstanding .item .card-price {
+  font-size: 18px;
+}
+.content .wall {
+  margin: 40px 0;
+}
+.content .content-footer .subscribe,
+.content .content-footer .social-list {
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+}
+.content .content-footer .title {
+  font-size: 32px;
+  font-weight: bold;
+}
+.content .content-footer .sub-title {
+  font-size: 14px;
+  font-weight: bold;
+}
+.content .content-footer .social-list {
+  justify-content: center;
+}
+.content .content-footer .social-list i {
+  padding: 12px;
+  font-size: 20px;
+}
+
+.footer {
+  margin-top: 40px;
+  padding-top: 40px;
+  margin-bottom: 10px;
+}
+
+.footer img {
+  height: 60px;
+  display: block;
+}
+
+.copyright {
+  background-color: #fff;
+  color: #000;
+}/*# sourceMappingURL=style.css.map */

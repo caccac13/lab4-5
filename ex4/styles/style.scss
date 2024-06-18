@@ -1,0 +1,87 @@
+@import "color";
+
+.header {
+  height: 90px;
+  line-height: 90px;
+  margin-bottom: 40px;
+}
+
+.header {
+  .nav {
+    justify-content: center;
+    text-transform: uppercase;
+  }
+  .col-lg-8 li {
+    padding: 0 16px;
+  }
+}
+
+.content {
+  .outstanding {
+    .title {
+      font-weight: bold;
+      font-size: 32px;
+      text-transform: uppercase;
+      padding-top: 60px;
+    }
+
+    .item {
+      border: none;
+    }
+    .item:hover {
+      border: 1px solid rgb(199, 199, 236);
+      cursor: pointer;
+    }
+    .item .card-title {
+      font-size: 12px;
+      font-weight: bold;
+      opacity: 0.6;
+    }
+    .item .card-price {
+      font-size: 18px;
+    }
+  }
+  .wall {
+    margin: 40px 0;
+  }
+  .content-footer {
+    .subscribe,
+    .social-list {
+      max-width: 600px;
+      width: 100%;
+      margin: auto;
+    }
+    .title {
+      font-size: 32px;
+      font-weight: bold;
+    }
+    .sub-title {
+      font-size: 14px;
+      font-weight: bold;
+    }
+    .social-list {
+      justify-content: center;
+    }
+    .social-list i {
+      padding: 12px;
+      font-size: 20px;
+    }
+  }
+}
+
+.footer {
+  margin-top: 40px;
+  padding-top: 40px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  img {
+    height: 60px;
+    display: block;
+  }
+}
+.copyright {
+  background-color: $white;
+  color: #000;
+}
