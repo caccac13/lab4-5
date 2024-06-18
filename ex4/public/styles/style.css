@@ -84,5 +84,6 @@
   .header .menu-mobile {
     display: block;
     z-index: 1;
+    margin-left: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
